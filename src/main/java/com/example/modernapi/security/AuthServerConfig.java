@@ -23,9 +23,6 @@ public class AuthServerConfig extends AuthorizationServerConfigurerAdapter {
     @Autowired
     private CustomClientDetailsService customClientDetailsService;
 
-//    @Autowired
-//    private UserEntityUserDetailsService userDetailsService;
-
     @Autowired
     private TokenStore tokenStore;
 
